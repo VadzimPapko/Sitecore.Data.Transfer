@@ -35,7 +35,7 @@ To **complete the whole content data transferring**, we need to perform some mor
 
 * Make sure to export the **Root Sitecore Item** (configured in the `SerializingOptions.json`) from the old Sitecore instance to a new one
 
-* Use **SQL Management Studio** to execute **BULK INSERT SCRIPT**
+* Use **SQL Management Studio** to execute **BULK INSERT SCRIPT** located [here](https://github.com/VadzimPapko/Sitecore.Data.Transfer/blob/master/Sources/Sitecore_Data_Transfer_BULK_INSERT.sql)
 
 * Log into your target **Sitecore Admin Panel — Control Panel — Rebuild link databases**:
 
