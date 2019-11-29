@@ -1,0 +1,14 @@
+﻿{
+  "ConnectionString": "user id=sa;password=pass;Data Source=Your_SQL_Server;Database=Sitecore_Master", //input your connection string
+  "RootItemId": "{772F561B-A1B3-4367-9962-5123F86B5D7A}", //input Sitecore Root item ID
+  "DataFolderName": "App_data",
+  "ItemsFileName": "items.txt",
+  "SharedFIeldsFileName": "shared_f.txt",
+  "VersionedFIeldsFileName": "versioned_f.txt",
+  "UnversionedFIeldsFileName": "unversioned_f.txt",
+  "DescendantsFileName": "descendants.txt",
+  "FieldsTerminator": "=^.^=",
+  "RowsTerminator": "(*(oo)*)",
+  "MaxItemsPerQuery": 3500,
+  "SqlDateTimeFormat": "M/d/yyyy h:mm:ss tt"
+}
